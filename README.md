@@ -11,16 +11,13 @@
 
 ## Exercise
 
-- Let’s use Node to write “Hello, World!” to a web page. Reference the Intro to Node.js notes, and place the following code snippets in the correct place
+## Exercise
 
-  - `http.createServer()`
-  - `function(request, response) {}`
-  - `response.writeHead()`
-  - `response.end()`
-  - `listen()`
-  - `function(){console.log("Server listening...")}`
-
-1. With the code in place, change the port from `8080` to `3000`
-2. In your cmd prompt / terminal, navigate to the project directory
-3. Once in the correct directory, run the following command: `node app.js`
-4. Open your browser, and navigate to []("http:localhost:3000")
+- Create a new file `mymodule.js`
+- Inside `mymodule.js`, create a function that returns your an object with your name, age, and city that you live in. Feel free to change the properties to whatever you like.
+- Be sure to set the function to export
+- In `app.js`:
+  - Create your http module, as well as the imported module from your info file
+  - Using the http module, call the createServer method and set your parameters to write the information from your imported module.
+  - Set your port on the http module to 3000
+- Initiate the node.js file using the CLI
