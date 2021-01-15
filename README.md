@@ -11,8 +11,6 @@
 
 ## Exercise
 
-## Exercise
-
 - Create a new file `mymodule.js`
 - Inside `mymodule.js`, create a function that returns your an object with your name, age, and city that you live in. Feel free to change the properties to whatever you like.
 - Be sure to set the function to export
